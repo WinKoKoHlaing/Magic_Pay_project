@@ -1,0 +1,244 @@
+body {
+    background: #ededf5;
+    font-family: "Franklin Gothic Regular", "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.9px;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    /* user-select: none; */
+}
+a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #5842e3 !important;
+    text-decoration: none !important;
+}
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+}
+.btn {
+    padding: 10px 25px;
+}
+.btn-theme {
+    background: #5842e3;
+    color: #fff;
+}
+.btn-theme:hover {
+    background: #5842e3;
+    color: #fff;
+}
+/* sweet-alert2 */
+.swal2-title {
+    border-radius: 10px !important;
+}
+.swal2-title {
+    font-size: 18px !important;
+}
+.swal2-styled {
+    padding: 10px 25px !important;
+    border-radius: 10px !important;
+}
+.swal2-confirm {
+    background: #5842e3 !important;
+}
+
+/*-------------------------- auth-form ------------------*/
+.auth-form {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 10px;
+}
+.auth-form a {
+    color: #333;
+    text-decoration: none;
+}
+.auth-form a:hover {
+    color: #5842e3;
+    text-decoration: none;
+}
+/* ------------------------- header-menu--------------- */
+.header-menu {
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 0px;
+    z-index: 1;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #333;
+}
+.header-menu i {
+    font-size: 20px;
+}
+.header-menu h3 {
+    font-size: 18px;
+    margin-bottom: 0 !important;
+}
+.header-menu a:hover i {
+    color: #5842e3;
+    transition: 0.3s;
+}
+.header-menu a:hover p {
+    color: #5842e3;
+    transition: 0.3s;
+}
+/* ------------------------- content --------------- */
+.content {
+    margin-top: 70px;
+    margin-bottom: 75px;
+}
+/* ------------------------- account --------------- */
+.account {
+}
+.account .card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.09);
+    /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15); */
+}
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    border: 1px sold #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+/* ------------------------- bottom-menu--------------- */
+.bottom-menu {
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.bottom-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+.bottom-menu i {
+    font-size: 18px;
+    margin-top: 12px;
+}
+.bottom-menu p {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+.bottom-menu a:hover i {
+    color: #5842e3;
+    transition: 0.3s;
+}
+.bottom-menu a:hover p {
+    color: #5842e3;
+    transition: 0.3s;
+}
+/* ------------------------- update-password --------------- */
+.update-password img {
+    width: 200px;
+}
+/* ------------------------- scan-tab --------------- */
+.scan-tab {
+    width: 60px;
+    height: 60px;
+    background: #ededf5;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.scan-tab .inside {
+    width: 52px;
+    height: 52px;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: glow 5s infinite;
+}
+.scan-tab .inside i {
+    margin: 0 !important;
+}
+/* -----------------------qr-animate--------------------- */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+    40% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    60% {
+        box-shadow: 0 0 15px #5842e3;
+    }
+    100% {
+        box-shadow: 0 0 -10px #5842e3;
+    }
+}
+/* -------------------------wallet-------------------- */
+.wallet {
+}
+.wallet .my-card {
+    background: #5842e3;
+    color: #fff;
+}
+.wallet .my-card span {
+    text-transform: uppercase;
+    color: silver;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.wallet .my-card h4 {
+    font-size: 22px;
+    font-weight: 900;
+}
+.wallet .my-card h5 {
+    font-size: 18px;
+    font-weight: 900;
+}
+.wallet .my-card p {
+    /* font-weight: 900; */
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/* ---------------------home--------------------- */
+.shortcut-box img {
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
+.shortcut-box span {
+    font-size: 14px;
+}
+.function-box img {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+/* -----------------transaction-detail----------- */
+.transaction-detail img {
+    width: 60px;
+}
+
+.unread_noti_count {
+    position: relative;
+    top: -12px;
+    right: 5px;
+    padding: 3px;
+}

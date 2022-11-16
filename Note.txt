@@ -1,0 +1,49 @@
+MVC
+---
+  Model - Business Flow
+  V - View (presentation layer)
+  C - Class (Control)
+
+Blade Template Engine
+---------------------
+  - .blade.php
+  - @yield
+  - @extends
+  - @section
+
+Route
+-----
+  - GET (show web page to user)
+  - POST (store data)
+  - PUT (update data)
+  - DELETE (delete data)
+
+Ecommerce
+---------
+  - Admin
+    - item manage (1)
+      - items, categories, subcategories, brands
+    - order manage (3)
+      - orders, orderdetails
+  - Customer
+    -  view items, orders (2)
+
+Migrations & Model
+------------------
+- php artisan make:model Mymodel -m -r
+- Migrations (table structure)
+- Model () (Object Relational Mapping)
+- php artisan migrate
+- php artisan migrate:fresh (drop all tabel and migrate again)
+
+CRUD
+----
+- Create Form (p) =>  Store
+- All Item List (p) => Detail (p)
+- Show Update Form (p) => Update
+- Delete
+
+Create Resource Controller for related model
+--------------------------------------------
+php artisan make:controller CategoryController --resource --model=Category
+

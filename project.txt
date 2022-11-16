@@ -1,0 +1,26 @@
+laravel jquery database (yajra.com/datatables.com)
+==================================================
+
+ui avatars.com
+===================
+
+laravel jsvalidation
+====================
+
+sweetalert2
+===========
+
+jessenger
+=========
+
+flaticon.com
+============
+
+manypixels.com
+==============
+
+unDrawIllustration
+==================
+
+laravel hashid
+==============
